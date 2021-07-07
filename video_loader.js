@@ -30,7 +30,8 @@ This way you can improve your loading time
                                     iframe.setAttribute( "frameborder", "0" );
                                     iframe.setAttribute( "allowfullscreen", "" );
                                     iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1" );
-
+                                    iframe.setAttribute( "width", "560" );
+                                    iframe.setAttribute( "height", "415" );
                                     this.innerHTML = "";
                                     this.appendChild( iframe );
                         } );    
