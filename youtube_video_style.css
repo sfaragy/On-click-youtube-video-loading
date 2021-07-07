@@ -1,9 +1,14 @@
+
+
+.width_area{
+	width: 50%;
+	margin:auto;
+}
 .youtube {
 	background-color: #000;
 	margin-bottom: 30px;
 	position: relative;
 	padding-top: 56.25%;
-	overflow: hidden;
 	cursor: pointer;
 	border-radius: 5px;
 }
@@ -30,7 +35,7 @@
 .youtube .play-button {
 	width: 90px;
 	height: 60px;
-	background-color: #333;
+	background-color: #f80000;
 	box-shadow: 0 0 30px rgba( 0,0,0,0.6 );
 	z-index: 1;
 	opacity: 0.8;
@@ -42,4 +47,10 @@
 	top: -16.82%;
 	left: 0;
 	opacity: 0.7;
+}
+
+iframe {
+	position: relative !important;
+	width: 100%;
+	margin-top: -56%;
 }
